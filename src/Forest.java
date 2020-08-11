@@ -10,18 +10,6 @@ public class Forest {
     public void plantTree() {
         obj = TreeFactory.getTree();
 
-//        if (trees.add((Tree) obj)) throw new Exception("sdasd");
-//        else if (bushes.add((Bush) obj)) throw new Exception("sadasd");
-//        else {
-//            try {
-//            } catch (Exception e) {
-//                System.out.println("this object doesn't belong to the Forest");
-//            }
-//        }
-
-
-
-//
         try {
             trees.add((Tree) obj);
             return;
